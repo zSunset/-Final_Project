@@ -2,16 +2,7 @@ USE configurator;
 
 INSERT configurator.users(first_name, last_name, phone_number, mail)
 VALUES 
-	('Виталий', 'Яицкий', 89880939505, 'logist26rus@gmail.com'),
-    ('Артем', 'Кузнецов', 89039553020, 'kuznec_ar@gmail.com'),
-    ('Артем', 'Куценко', 89881000050, 'kuc_ar@gmail.com'),
-    ('Алексей', 'Закатянский', 89282583040, 'zac_al@gmail.com'),
-    ('Дмитрий', 'Тарануха', 89182503223, 'dima0990@gmail.com'),
-    ('Алексей', 'Егорушкин', 89324592554, 'egorushkin26@gmail.com'),
-    ('Виктор', 'Иванников', 89382352032, 'ivannikov32@gmail.com'),
-    ('Александр', 'Яицкий', 89883244565, 'alex007@gmail.com'),
-    ('Александр', 'Балаба',89389502552 , 'vertu_st@gmail.com'),
-    ('Евгения', 'Лапонова', 89622344554, 'evgeniya_stav@gmail.com');
+	('Виталий', 'Яицкий', 89880939505, 'logist26rus@gmail.com');
     
 INSERT configurator.case_fans(title, `description`, price_case_fans)
 VALUES 
